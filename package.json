@@ -1,0 +1,25 @@
+{
+  "name": "functional-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test.js | tap-spec"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.16.0",
+    "express": "^4.14.0",
+    "morgan": "^1.7.0"
+  },
+  "devDependencies": {
+    "faucet": "0.0.1",
+    "request": "^2.79.0",
+    "superagent": "^3.3.2",
+    "supertest": "^2.0.1",
+    "tap-spec": "^4.1.1",
+    "tape": "^4.6.3"
+  }
+}
